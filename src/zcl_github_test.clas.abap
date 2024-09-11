@@ -5,8 +5,12 @@ CLASS zcl_github_test DEFINITION PUBLIC FINAL CREATE PUBLIC.
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_github_test IMPLEMENTATION.
+
+
+CLASS ZCL_GITHUB_TEST IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello, GitHub!' ).
+    out->write( 'Hello, GitHub!!!' ).
   ENDMETHOD.
 ENDCLASS.
